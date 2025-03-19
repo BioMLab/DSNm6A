@@ -6,13 +6,13 @@
  - encode.py 生成序列特征编码
  - BERT.py BERT的网络模型
  - model_full.py CNN和Bi-LSTM的网络模型
- - model_pskp_jiu.py DSN的网络模型
+ - model.py DSN的网络模型
  - function.py 损失函数
- - train_model_pskp_jiu.py 训练模型
- - test_pskp_jiu.py 测试模型性能
+ - train.py 训练模型
+ - test.py 测试模型性能
 ## Run Step
 1. 运行encode.py 生成序列特征编码
-2. 运行train_model_pskp_jiu.py 训练模型并测试模型性能
+2. 运行train.py 训练模型并测试模型性能
 ## Requirements
  - Python == 3.8
  - Numpy == 1.24.3
