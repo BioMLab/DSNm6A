@@ -5,14 +5,14 @@
  - encode_method.py -- Feature encoding method file
  - encode.py -- Generate sequence feature encoding file
  - BERT.py -- The network model of BERT
- - model_full.py CNN和Bi-LSTM的网络模型
- - model.py DSN的网络模型
- - function.py 损失函数
- - train.py 训练模型
- - test.py 测试模型性能
+ - model_full.py -- The network model of CNN and Bi-LSTM
+ - model.py -- The network model of DSN
+ - function.py -- Loss function
+ - train.py -- Training model
+ - test.py -- Testing model performance
 ## Run Step
-1. 运行encode.py 生成序列特征编码
-2. 运行train.py 训练模型并测试模型性能
+1. Run encode.py to generate sequence feature encoding
+2. Run train.py to train the model and test the model performance
 ## Requirements
  - Python == 3.8
  - Numpy == 1.24.3
