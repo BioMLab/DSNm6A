@@ -1,10 +1,10 @@
 # DSNm6A
 ## Datasets
- - 包含五个物种的lncRNA和mRNA数据集
+ - A dataset of lncRNA and mRNA containing five species.
 ## Description
- - encode_method.py 特征编码方法
- - encode.py 生成序列特征编码
- - BERT.py BERT的网络模型
+ - encode_method.py -- Feature encoding method file
+ - encode.py -- Generate sequence feature encoding file
+ - BERT.py -- The network model of BERT
  - model_full.py CNN和Bi-LSTM的网络模型
  - model.py DSN的网络模型
  - function.py 损失函数
